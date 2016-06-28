@@ -22,3 +22,4 @@ catalog.xml
 *.tar.gz
 # maven versions plugin
 pom.xml.versionsBackup
+*/bin
