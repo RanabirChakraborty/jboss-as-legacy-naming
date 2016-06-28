@@ -25,7 +25,7 @@
     <parent>
         <groupId>org.jboss.as.legacy</groupId>
         <artifactId>jboss-as-legacy-naming</artifactId>
-        <version>1.3.0-SNAPSHOT</version>
+        <version>1.3.1-SNAPSHOT</version>
     </parent>
     <groupId>org.jboss.as.legacy.naming</groupId>
     <artifactId>jboss-as-legacy-naming-test</artifactId>
@@ -213,7 +213,7 @@
         <surefire.forked.process.timeout>1500</surefire.forked.process.timeout>
 
         <jbossas.eap.zip><!-- To be defined --></jbossas.eap.zip>
-        <jbossas.eap.distro>jboss-eap-6.3</jbossas.eap.distro>
+        <jbossas.eap.distro>jboss-eap-7.0</jbossas.eap.distro>
         <hornetq.version>2.3.21.Final-redhat-1</hornetq.version>
         <version.org.jboss.naming>5.0.3.GA_CP02</version.org.jboss.naming>
         <version.org.jboss.remote-naming>1.0.7.Final-redhat-1</version.org.jboss.remote-naming>
