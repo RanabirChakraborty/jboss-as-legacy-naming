@@ -214,6 +214,11 @@
 
         <jbossas.eap.zip><!-- To be defined --></jbossas.eap.zip>
         <jbossas.eap.distro>jboss-eap-7.0</jbossas.eap.distro>
+        <!--
+        not available in EAP7 repo, this we have to enable 6.0, 
+        switching to different version from EAP7 repo does not help
+        since it lacks other artifacts matching this version
+        -->
         <hornetq.version>2.3.21.Final-redhat-1</hornetq.version>
         <version.org.jboss.naming>5.0.3.GA_CP02</version.org.jboss.naming>
         <version.org.jboss.remote-naming>1.0.7.Final-redhat-1</version.org.jboss.remote-naming>
